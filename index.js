@@ -46,9 +46,6 @@ var result = data.filter (function (item) {
 });
 console.log ("filter:", result, result.length);
 
-// each
-// Description: 
-
 // every
 // Description: This method check every item
 // in array and if condition is valid then it
@@ -101,4 +98,10 @@ var result = data.splice (0, 0);
 console.log ("splice:", result, result.length);
 
 // some
-// Description: 
+// Description: This method check every item
+// and if any predicate condition is valid then it
+// return true. 
+var result = data.some (function (item) {
+    return item.length > 0;
+});
+console.log ("some:", result);
