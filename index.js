@@ -77,7 +77,12 @@ console.log ("map:", result, result.length);
 // Description: 
 
 // sort
-// Description: 
+// Description: This method sorts the items of an array
+// acs/desc order and returns the sorted array.
+var result = data.sort (function (a, b) {
+    return a - b;
+});
+console.log ("sort:", result);
 
 
 // slice
