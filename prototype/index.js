@@ -40,3 +40,19 @@ Vehicle.prototype.getType = function () {
 
 var car = new Vehicle ('Hyndai', 'car');
 console.log (car.getName (), car.getType ());
+
+
+function Shape (type) {
+    this.type = type;
+    this.getType = function () {
+        return type;
+    }
+}
+
+function Triangle (a, b , c) {
+
+}
+
+Triangle.prototype.shape = function () {
+
+}
